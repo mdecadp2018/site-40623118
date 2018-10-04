@@ -37,12 +37,14 @@
 <div class="reveal">
 <!-- Any section element inside of this container is displayed as a slide -->
 <div class="slides">
+<section data-markdown>
+    <script type="text/template">
 ## 2018Fall 分組網際簡報
 
 ### 虎科大機械設計工程系
 
 <small>
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40623118 楊秉澤](http://lab.kmol.info/)
 </small>
 
 [2018 Fall 分組網誌](./../blog/index.html)
@@ -53,8 +55,87 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 
 						
+<section>
 <section data-markdown>
     <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+Week1
+
+Homework Week 1
+
+[Pre-made Sketches W1](https://youtu.be/RZeyMRqCkew)
+
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+## 利用 Markdown 寫投影片
+以下利用 Markdown 格式展示 Python 程式碼:
+```
+# use threading and subprocess to threading the make process
+import os
+import subprocess
+import threading
+
+def domake():
+    
+    path = "../exposed/api/exposed"
+    ubuntu = "../Ubuntu"
+    
+    # create obj path
+    
+    if not os.path.exists(path+"/../obj"):
+        os.makedirs(path+"/../obj")
+    
+    subprocess.call(["make", "clean"], cwd=path)
+    subprocess.call("make", cwd=path)
+    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
+    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
+    
+make = threading.Thread(target=domake)
+make.start()
+```
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+## 使用 iframe 導入影片
+
+### 導入影片 template
+
+<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </script>
+</section>
+
+
+						
+</section>
+
+<section>
+<section data-markdown>
+    <script type="text/template">
+Week1 00
+
+###Homework Week 1
+
+####[Pre-made Sketches W1](https://youtu.be/RZeyMRqCkew)
+
+    </script>
+</section>
+
+
+						
+</section>
+
 <section data-markdown>
     <script type="text/template">
 # 投影片快捷鍵
