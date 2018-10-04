@@ -21,13 +21,16 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20181004230854.1"><vh>Week 1</vh>
+<v t="leo.20181004230856.1"><vh>影片</vh></v>
+</v>
+<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -317,14 +320,17 @@ make.start()
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180827201621.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
+<t tx="leo.20180827201621.9">@others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
 						
 </t>
+<t tx="leo.20181004230854.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+</t>
+<t tx="leo.20181004230856.1"></t>
 </tnodes>
 </leo_file>
