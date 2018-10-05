@@ -21,7 +21,7 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181005000253.1" a="E"><vh>HW</vh>
@@ -33,11 +33,6 @@
 </v>
 <v t="leo.20181005000253.6"><vh>導入影片</vh>
 <v t="leo.20181005000253.7"><vh>iframe 導入影片</vh></v>
-</v>
-</v>
-<v t="leo.20181004235845.1" a="E"><vh>HW 00</vh>
-<v t="leo.20181004230854.1" a="E"><vh>Week 1</vh>
-<v t="leo.20181004230856.1"><vh>影片</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
@@ -342,25 +337,6 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181004230854.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20181004230856.1">Week1 00
-
-###Homework Week 1
-
-####[Pre-made Sketches W1](https://youtu.be/RZeyMRqCkew)</t>
-<t tx="leo.20181004235845.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
 <t tx="leo.20181005000253.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -377,11 +353,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181005000253.3">Week1
+<t tx="leo.20181005000253.3">## Week1
 
 Homework Week 1
 
-[Pre-made Sketches W1](https://youtu.be/RZeyMRqCkew)</t>
+[Pre-made Sketches W1](https://youtu.be/RZeyMRqCkew)
+
+</t>
 <t tx="leo.20181005000253.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
