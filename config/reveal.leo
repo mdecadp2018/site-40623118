@@ -359,7 +359,7 @@ Homework Week 1
 
 [Pre-made Sketches W1](https://youtu.be/RZeyMRqCkew)
 
-</t>
+[Week 1 Homework](https://youtu.be/1SaHGDRgnoE)</t>
 <t tx="leo.20181005000253.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
