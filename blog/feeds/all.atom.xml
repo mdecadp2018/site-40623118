@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 40623118</title><link href="https://mdecadp2018.github.io/site-40623118/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623118/blog/feeds/all.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623118/blog/</id><updated>2018-10-19T11:00:00+08:00</updated><entry><title>Week 6</title><link href="https://mdecadp2018.github.io/site-40623118/blog/40623118-Blog.html" rel="alternate"></link><published>2018-10-19T11:00:00+08:00</published><updated>2018-10-19T11:00:00+08:00</updated><author><name>40623118</name></author><id>tag:mdecadp2018.github.io,2018-10-19:/site-40623118/blog/40623118-Blog.html</id><summary type="html">&lt;p&gt;2018 Week 6 心得&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 40623118</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2018-10-19T11:00:00+08:00</updated><entry><title>Week 6</title><link href="./40623118-Blog.html" rel="alternate"></link><published>2018-10-19T11:00:00+08:00</published><updated>2018-10-19T11:00:00+08:00</updated><author><name>40623118</name></author><id>tag:None,2018-10-19:./40623118-Blog.html</id><summary type="html">&lt;p&gt;2018 Week 6 心得&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Week 6 心得&lt;/p&gt;
 
 
 &lt;h2&gt;發現問題&lt;/h2&gt;
 &lt;p&gt;2018/10/19 week 6&lt;/p&gt;
-&lt;p&gt;一、
-Q : 無法clone與add版本
-Y:\tmp&amp;gt;git clone https://github.com/mdecadp2018/site-40623118 test
+&lt;p&gt;一、&lt;/p&gt;
+&lt;p&gt;Q : 無法clone與add版本&lt;/p&gt;
+&lt;p&gt;Y:\tmp&amp;gt;git clone https://github.com/mdecadp2018/site-40623118 test
 Cloning into 'test'...
 fatal: unable to access 'https://github.com/mdecadp2018/site-40623118/': error setting certificate verify locations:
   CAfile: y:/git/mingw64/bin/curl-ca-bundle.crt
-  CApath: none
-A : 
+  CApath: none&lt;/p&gt;
+&lt;p&gt;A : 
 Y:\tmp&amp;gt;git config --global http.sslverify "false"&lt;/p&gt;
 &lt;p&gt;Y:\tmp&amp;gt;git clone https://github.com/mdecadp2018/site-40623118 test
 Cloning into 'test'...
@@ -23,10 +23,10 @@ remote: Total 857 (delta 309), reused 832 (delta 290), pack-reused 0
 Receiving objects: 100% (857/857), 3.68 MiB | 380.00 KiB/s, done.
 Resolving deltas: 100% (309/309), done.
 Checking out files: 100% (614/614), done.&lt;/p&gt;
-&lt;p&gt;二、
-Q : 在LEO編輯後 遠端與近端所更新的版本不同
-A : 在上面的問題解決之後 重新clone一個(名:test) 與之前的版本(名:site)有所衝突
-LEO近端所顯示的是site的版本 而遠端所顯示的是test的版本&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623118/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/site-40623118/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+&lt;p&gt;二、&lt;/p&gt;
+&lt;p&gt;Q : 在LEO編輯後 遠端與近端所更新的版本不同&lt;/p&gt;
+&lt;p&gt;A : 在上面的問題解決之後 重新clone一個(名:test) 與之前的版本(名:site)有所衝突
+LEO近端所顯示的是site的版本 而遠端所顯示的是test的版本&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="./2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:None,2018-09-10:./2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 
