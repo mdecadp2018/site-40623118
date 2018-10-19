@@ -28,7 +28,10 @@
 <v t="leo.20181005000253.2" a="E"><vh>Week 1</vh>
 <v t="leo.20181005000253.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20181005000253.4"><vh>導入縮排程式碼</vh>
+<v t="leo.20181019091644.1" a="E"><vh>Week 2</vh>
+<v t="leo.20181019091656.1"><vh>內容</vh></v>
+</v>
+<v t="leo.20181005000253.4" a="E"><vh>導入縮排程式碼</vh>
 <v t="leo.20181005000253.5"><vh>引用程式碼</vh></v>
 </v>
 <v t="leo.20181005000253.6"><vh>導入影片</vh>
@@ -38,7 +41,7 @@
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -344,10 +347,10 @@ make.start()
 </t>
 <t tx="leo.20181005000253.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
+
 
 
 
@@ -359,10 +362,11 @@ Homework Week 1
 
 [Pre-made Sketches W1](https://youtu.be/RZeyMRqCkew)
 
-[Week 1 Homework](https://youtu.be/1SaHGDRgnoE)</t>
+[Week 1 Homework](https://youtu.be/1SaHGDRgnoE)
+
+</t>
 <t tx="leo.20181005000253.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
@@ -413,6 +417,23 @@ make.start()
 ### 導入影片 template
 
 &lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20181019091644.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181019091656.1">## Week2
+
+Homework Week 2
+
+[Week 2 Homework](https://youtu.be/XbMiwRAsn0o)
+
 </t>
 </tnodes>
 </leo_file>
