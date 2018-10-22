@@ -26,7 +26,54 @@ Checking out files: 100% (614/614), done.&lt;/p&gt;
 &lt;p&gt;二、&lt;/p&gt;
 &lt;p&gt;Q : 在LEO編輯後 遠端與近端所更新的版本不同&lt;/p&gt;
 &lt;p&gt;A : 在上面的問題解決之後 重新clone一個(名:test) 與之前的版本(名:site)有所衝突
-LEO近端所顯示的是site的版本 而遠端所顯示的是test的版本&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="./2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:None,2018-09-10:./2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+LEO近端所顯示的是site的版本 而遠端所顯示的是test的版本&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 5</title><link href="./40623118-Blog-5.html" rel="alternate"></link><published>2018-10-12T11:00:00+08:00</published><updated>2018-10-12T11:00:00+08:00</updated><author><name>40623118</name></author><id>tag:None,2018-10-12:./40623118-Blog-5.html</id><summary type="html">&lt;p&gt;2018 Week 5 心得&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Week 5 心得&lt;/p&gt;
+
+
+&lt;h2&gt;發現問題&lt;/h2&gt;
+&lt;p&gt;2018/10/12 week 5&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 4</title><link href="./40623118-Blog-4.html" rel="alternate"></link><published>2018-10-05T11:00:00+08:00</published><updated>2018-10-05T11:00:00+08:00</updated><author><name>40623118</name></author><id>tag:None,2018-10-05:./40623118-Blog-4.html</id><summary type="html">&lt;p&gt;2018 Week 4 心得&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Week 4 心得&lt;/p&gt;
+
+
+&lt;h2&gt;發現問題&lt;/h2&gt;
+&lt;p&gt;2018/10/05 week 4&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 3</title><link href="./40623118-Blog-3.html" rel="alternate"></link><published>2018-09-28T11:00:00+08:00</published><updated>2018-09-28T11:00:00+08:00</updated><author><name>40623118</name></author><id>tag:None,2018-09-28:./40623118-Blog-3.html</id><summary type="html">&lt;p&gt;2018 Week 3 心得&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Week 3 心得&lt;/p&gt;
+
+
+&lt;h2&gt;發現問題&lt;/h2&gt;
+&lt;p&gt;2018/09/28 week 3&lt;/p&gt;
+&lt;p&gt;一、&lt;/p&gt;
+&lt;p&gt;Q : 無法clone與add版本&lt;/p&gt;
+&lt;p&gt;Y:\tmp&amp;gt;git clone https://github.com/mdecadp2018/site-40623118 test
+Cloning into 'test'...
+fatal: unable to access 'https://github.com/mdecadp2018/site-40623118/': error setting certificate verify locations:
+  CAfile: y:/git/mingw64/bin/curl-ca-bundle.crt
+  CApath: none&lt;/p&gt;
+&lt;p&gt;A : 
+Y:\tmp&amp;gt;git config --global http.sslverify "false"&lt;/p&gt;
+&lt;p&gt;Y:\tmp&amp;gt;git clone https://github.com/mdecadp2018/site-40623118 test
+Cloning into 'test'...
+remote: Enumerating objects: 857, done.
+remote: Counting objects: 100% (857/857), done.
+remote: Compressing objects: 100% (469/469), done.
+remote: Total 857 (delta 309), reused 832 (delta 290), pack-reused 0
+Receiving objects: 100% (857/857), 3.68 MiB | 380.00 KiB/s, done.
+Resolving deltas: 100% (309/309), done.
+Checking out files: 100% (614/614), done.&lt;/p&gt;
+&lt;p&gt;二、&lt;/p&gt;
+&lt;p&gt;Q : 在LEO編輯後 遠端與近端所更新的版本不同&lt;/p&gt;
+&lt;p&gt;A : 在上面的問題解決之後 重新clone一個(名:test) 與之前的版本(名:site)有所衝突
+LEO近端所顯示的是site的版本 而遠端所顯示的是test的版本&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 2</title><link href="./40623118-Blog-2.html" rel="alternate"></link><published>2018-09-21T11:00:00+08:00</published><updated>2018-09-21T11:00:00+08:00</updated><author><name>40623118</name></author><id>tag:None,2018-09-21:./40623118-Blog-2.html</id><summary type="html">&lt;p&gt;2018 Week 2 心得&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Week 2 心得&lt;/p&gt;
+
+
+&lt;h2&gt;發現問題&lt;/h2&gt;
+&lt;p&gt;2018/09/21 week 2&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>Week 1</title><link href="./40623118-Blog-1.html" rel="alternate"></link><published>2018-09-14T11:00:00+08:00</published><updated>2018-09-14T11:00:00+08:00</updated><author><name>40623118</name></author><id>tag:None,2018-09-14:./40623118-Blog-1.html</id><summary type="html">&lt;p&gt;2018 Week 1 心得&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2018 Week 1 心得&lt;/p&gt;
+
+
+&lt;h2&gt;發現問題&lt;/h2&gt;
+&lt;p&gt;2018/09/14 week 1&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="./2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:None,2018-09-10:./2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 

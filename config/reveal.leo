@@ -25,17 +25,14 @@
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181005000253.1" a="E"><vh>HW</vh>
-<v t="leo.20181005000253.2" a="E"><vh>Week 1</vh>
+<v t="leo.20181005000253.2"><vh>Week 1</vh>
 <v t="leo.20181005000253.3"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20181019091644.1" a="E"><vh>Week 2</vh>
+<v t="leo.20181019091644.1"><vh>Week 2</vh>
 <v t="leo.20181019091656.1"><vh>內容</vh></v>
 </v>
-<v t="leo.20181005000253.4" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20181005000253.5"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20181005000253.6"><vh>導入影片</vh>
-<v t="leo.20181005000253.7"><vh>iframe 導入影片</vh></v>
+<v t="leo.20181022183226.1" a="E"><vh>Week 6</vh>
+<v t="leo.20181022183226.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
@@ -365,59 +362,6 @@ Homework Week 1
 [Week 1 Homework](https://youtu.be/1SaHGDRgnoE)
 
 </t>
-<t tx="leo.20181005000253.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20181005000253.5">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20181005000253.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20181005000253.7">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 <t tx="leo.20181019091644.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -433,6 +377,21 @@ make.start()
 Homework Week 2
 
 [Week 2 Homework](https://youtu.be/XbMiwRAsn0o)
+
+</t>
+<t tx="leo.20181022183226.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181022183226.2">## Week6
+
+[發現問題]( )
 
 </t>
 </tnodes>
