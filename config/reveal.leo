@@ -25,10 +25,10 @@
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181005000253.1" a="E"><vh>HW</vh>
-<v t="leo.20181005000253.2"><vh>Week 1</vh>
-<v t="leo.20181005000253.3"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20181005000253.2" a="E"><vh>Week 4</vh>
+<v t="leo.20181005000253.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181019091644.1"><vh>Week 2</vh>
+<v t="leo.20181019091644.1" a="E"><vh>Week 5</vh>
 <v t="leo.20181019091656.1"><vh>內容</vh></v>
 </v>
 <v t="leo.20181022183226.1" a="E"><vh>Week 6</vh>
@@ -140,7 +140,9 @@ vertical: body pane on the botton</t>
 ### 虎科大機械設計工程系
 
 &lt;small&gt;
-Created by [40623118 楊秉澤](http://lab.kmol.info/)
+
+Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
+
 &lt;/small&gt;
 
 [2018 Fall 分組網誌](./../blog/index.html)
@@ -353,7 +355,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181005000253.3">## Week1
+<t tx="leo.20181005000253.3"># Week4
 
 Homework Week 1
 
@@ -372,7 +374,7 @@ Homework Week 1
 
 						
 </t>
-<t tx="leo.20181019091656.1">## Week2
+<t tx="leo.20181019091656.1"># Week5
 
 Homework Week 2
 
@@ -389,9 +391,9 @@ Homework Week 2
 
 						
 </t>
-<t tx="leo.20181022183226.2">## Week6
+<t tx="leo.20181022183226.2"># Week6
 
-[發現問題]( )
+[發現問題](https://mdecadp2018.github.io/site-40623118/blog/40623118-Blog.html)
 
 </t>
 </tnodes>
