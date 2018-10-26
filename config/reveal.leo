@@ -24,15 +24,27 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181005000253.1" a="E"><vh>HW</vh>
-<v t="leo.20181005000253.2" a="E"><vh>Week 4</vh>
+<v t="leo.20181005000253.1" a="E"><vh>課程</vh>
+<v t="leo.20181026103720.1"><vh>Week 1</vh>
+<v t="leo.20181026103720.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181026103724.1" a="E"><vh>Week 2</vh>
+<v t="leo.20181026103724.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181026103722.1" a="E"><vh>Week 3</vh>
+<v t="leo.20181026103722.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181005000253.2"><vh>Week 4</vh>
 <v t="leo.20181005000253.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181019091644.1" a="E"><vh>Week 5</vh>
+<v t="leo.20181019091644.1"><vh>Week 5</vh>
 <v t="leo.20181019091656.1"><vh>內容</vh></v>
 </v>
-<v t="leo.20181022183226.1" a="E"><vh>Week 6</vh>
+<v t="leo.20181022183226.1"><vh>Week 6</vh>
 <v t="leo.20181022183226.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20181026103604.1"><vh>Week 7</vh>
+<v t="leo.20181026103604.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
@@ -394,6 +406,77 @@ Homework Week 2
 <t tx="leo.20181022183226.2"># Week6
 
 [發現問題](https://mdecadp2018.github.io/site-40623118/blog/40623118-Blog.html)
+
+</t>
+<t tx="leo.20181026103604.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181026103604.2"># Week7
+
+Homework Week 3
+
+[Week 3 Homework](https://youtu.be/sdUpun-TOP8)
+
+</t>
+<t tx="leo.20181026103720.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20181026103720.2"># Week1
+
+* 依據上學期一樣，帶筆記、隨身碟與耳機，並且下在P37至個人隨身碟上
+* 登入 Github 帳號後， 連結至 https://classroom.github.com/a/fGqXU9kO 以領取個人的期中作業，各學員期中成績以每週放入此個人網站之操作影片、CMSimfly、reveal 簡報、pelican 網誌與倉儲歷程記錄作為自評依據
+
+</t>
+<t tx="leo.20181026103722.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20181026103722.2"># Week3
+
+* 開始運用Onshape來繪圖
+* 閱讀老師所給的原文電子檔來了解Onshape原本想讓讀者理解最初想表達的意思
+* 在閱讀原文電子檔時，盡量用[英英字典](https://www.merriam-webster.com)
+來解析，因為用中英字典的話不易久記
+</t>
+<t tx="leo.20181026103724.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20181026103724.2"># Week2
+
+* 利用 git checkout 內的 master 分支切換到 gh-pages
+* Github上的分支也必須去設定把它改為gh-pages
+* 以 python wsgi.py 啟動 CMSimfly 動態網站，以自己的管理者密碼在近端進行改版
+* 每週拍攝Onshape操作實習影片，將教材內容與使用心得放入個人的網站、簡報與網誌中
 
 </t>
 </tnodes>
