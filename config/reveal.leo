@@ -46,6 +46,9 @@
 <v t="leo.20181026103604.1"><vh>Week 7</vh>
 <v t="leo.20181026103604.2"><vh>內容</vh></v>
 </v>
+<v t="leo.20181101233352.1" a="E"><vh>Week 8</vh>
+<v t="leo.20181101233352.2"><vh>內容</vh></v>
+</v>
 </v>
 <v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -477,6 +480,23 @@ Homework Week 3
 * Github上的分支也必須去設定把它改為gh-pages
 * 以 python wsgi.py 啟動 CMSimfly 動態網站，以自己的管理者密碼在近端進行改版
 * 每週拍攝Onshape操作實習影片，將教材內容與使用心得放入個人的網站、簡報與網誌中
+
+</t>
+<t tx="leo.20181101233352.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181101233352.2"># Week8
+
+Homework Week 4
+
+[Week 4 Homework](https://youtu.be/KNBBMhe_jEQ)
 
 </t>
 </tnodes>
