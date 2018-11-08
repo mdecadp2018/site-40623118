@@ -68,9 +68,11 @@ $(function(){
 <p>Q : 無法clone與add版本</p>
 <p>Y:\tmp&gt;git clone https://github.com/mdecadp2018/site-40623118 test</p>
 <p>Cloning into 'test'... fatal: unable to access 'https://github.com/mdecadp2018/site-40623118/': error setting certificate verify locations: CAfile: y:/git/mingw64/bin/curl-ca-bundle.crt CApath: none</p>
-<p>A : Y:\tmp&gt;git config --global http.sslverify "false"</p>
+<p>A : Y:\tmp&gt;git config --global http.sslverify "false"(僅需此行指令，下方皆為處理程序)</p>
 <p>Y:\tmp&gt;git clone https://github.com/mdecadp2018/site-40623118 test</p>
-<p>Cloning into 'test'... remote: Enumerating objects: 857, done. remote: Counting objects: 100% (857/857), done. remote: Compressing objects: 100% (469/469), done. remote: Total 857 (delta 309), reused 832 (delta 290), pack-reused 0 Receiving objects: 100% (857/857), 3.68 MiB | 380.00 KiB/s, done.</p>
+<p>Cloning into 'test'... remote: Enumerating objects: 857, done. remote: Counting objects: 100% (857/857), done.</p>
+<p>remote: Compressing objects: 100% (469/469), done.</p>
+<p>remote: Total 857 (delta 309), reused 832 (delta 290), pack-reused 0 Receiving objects: 100% (857/857), 3.68 MiB | 380.00 KiB/s, done.</p>
 <p>Resolving deltas: 100% (309/309), done. Checking out files: 100% (614/614), done.</p>
 <p>二、</p>
 <p>Q : 在LEO編輯後 遠端與近端所更新的版本不同</p>
