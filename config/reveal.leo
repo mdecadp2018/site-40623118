@@ -25,7 +25,7 @@
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20181005000253.1" a="E"><vh>課程</vh>
-<v t="leo.20181026103720.1"><vh>Week 1</vh>
+<v t="leo.20181026103720.1" a="E"><vh>Week 1</vh>
 <v t="leo.20181026103720.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181026103724.1" a="E"><vh>Week 2</vh>
@@ -34,10 +34,10 @@
 <v t="leo.20181026103722.1" a="E"><vh>Week 3</vh>
 <v t="leo.20181026103722.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181005000253.2"><vh>Week 4</vh>
+<v t="leo.20181005000253.2" a="E"><vh>Week 4</vh>
 <v t="leo.20181005000253.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181019091644.1"><vh>Week 5</vh>
+<v t="leo.20181019091644.1" a="E"><vh>Week 5</vh>
 <v t="leo.20181019091656.1"><vh>內容</vh></v>
 </v>
 <v t="leo.20181022183226.1" a="E"><vh>Week 6</vh>
@@ -372,7 +372,9 @@ make.start()
 </t>
 <t tx="leo.20181005000253.3"># Week4
 
-Homework Week 1
+* 維護部落格必須切記 pelican.leo 內建立每周內容必須注意 slug 的名稱不得與其他周的 slug 一樣，否則系統無法得知是要使用哪個 slug 的內容，而導致整個部落格無法顯示。
+
+* 切記CMSimfly的影片或圖片不能用Heading1~6，需用Performatted來標示，否則會無法顯示。
 
 [Pre-made Sketches W1](https://youtu.be/RZeyMRqCkew)
 
@@ -391,7 +393,9 @@ Homework Week 1
 </t>
 <t tx="leo.20181019091656.1"># Week5
 
-Homework Week 2
+* 更新cmd版本至最新[2.19.1](https://gitforwindows.org/)
+
+* 如何利用Variable定義簡化繪圖流程
 
 [Week 2 Homework](https://youtu.be/XbMiwRAsn0o)
 
