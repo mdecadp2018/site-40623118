@@ -40,10 +40,10 @@
 <v t="leo.20181019091644.1"><vh>Week 5</vh>
 <v t="leo.20181019091656.1"><vh>內容</vh></v>
 </v>
-<v t="leo.20181022183226.1"><vh>Week 6</vh>
+<v t="leo.20181022183226.1" a="E"><vh>Week 6</vh>
 <v t="leo.20181022183226.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181026103604.1"><vh>Week 7</vh>
+<v t="leo.20181026103604.1" a="E"><vh>Week 7</vh>
 <v t="leo.20181026103604.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181101233352.1" a="E"><vh>Week 8</vh>
@@ -408,6 +408,8 @@ Homework Week 2
 </t>
 <t tx="leo.20181022183226.2"># Week6
 
+* 如何在Github的Issue來做YouTube的[連結](https://github.com/mdecourse/cadp2018/issues/10)
+
 [發現問題](https://mdecadp2018.github.io/site-40623118/blog/40623118-Blog.html)
 
 </t>
@@ -423,7 +425,7 @@ Homework Week 2
 </t>
 <t tx="leo.20181026103604.2"># Week7
 
-Homework Week 3
+* Github 無法登入的[原因](https://github.com/mdecourse/cadp2018/issues/11)
 
 [Week 3 Homework](https://youtu.be/sdUpun-TOP8)
 
@@ -494,8 +496,11 @@ Homework Week 3
 </t>
 <t tx="leo.20181101233352.2"># Week8
 
-Homework Week 4
+* 所謂[雲端](https://en.wikipedia.org/wiki/Cloud_computing)
 
+雲端運算 - 用多少開多少 - 用多少付多少 - 彈性高負擔少
+* 弄好投影片、部落格、CMSimfly與Github
+* 準備期中考
 [Week 4 Homework](https://youtu.be/KNBBMhe_jEQ)
 
 </t>

@@ -1,0 +1,159 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>2018 Fall 分組網站</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>2018 MDE CADP 40623118</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='課堂內容.html'>課堂內容</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a></li></ul><li><a href='Git.html'>Git</a><li><a href='啟動 p37 可攜系統.html'>啟動 p37 可攜系統</a></li></ul></nav><section>Git << <a href='Git.html'>Previous</a> <br /><h1>啟動 p37 可攜系統</h1>
+<p><br>在其中一個 Dos 命令列中, 輸入:</p>
+<p>c:</p>
+<p>表示要從 y: 槽切換到 c: 槽, 然後再下:</p>
+<p>cd \</p>
+<p>表示要更換目錄到 c: 槽的根目錄. 接下來建立一個 test 目錄:</p>
+<p>mkdir test</p>
+<p>然後更換目錄到此 test 目錄中.</p>
+<p>cd test</p>
+<p>接下來要執行 git 指令, 表示要將 test 起始為 Git 的倉儲:</p>
+<p>git init</p>
+<p>這時, c:\test 目錄中會新增一個 .git 目錄, 表示現在這個 c:\test 已經是 Git 倉儲.</p>
+<p>接下來要利用 SciTE 編輯器, 在 test 目錄中建立一個 myprogram.txt 文字檔案, 在此之前, 請利用 SciTE 的下拉式功能表 Options 中的 Open Global Options File 開啟</p>
+<p>SciTEGlobal.properties 設定檔案, 找到第 137 行的</p>
+<p>load.on.activate=1</p>
+<p>去掉原先最前頭的 "#" 符號, 然後存檔, 之後關閉所有開啟的 SciTE 編輯器, 如此, 可以讓</p>
+<p>SciTE 所開啟的檔案, 內容有修改時, 可以即時呈現在編輯區中.</p>
+<p>接著, 重新在 Dos 命令列中輸入:</p>
+<p>y:\SciTE\bin\Sc1.exe</p>
+<p>開啟已經修改 SciTEGlobal.properties 設定檔案之後的 SciTE 編輯區, 並且在</p>
+<p>myprogram.txt 檔案中, 只加入一行:</p>
+<p>my program</p>
+<p>接著存檔, 這時 c:\test 目錄中除了有 .git 目錄, 又多了一個 myprogram.txt 檔案.</p>
+<p>接下來要對 c:\test 倉儲進行新增與提交流程, 將 myprogram.txt 納入 .git 的版次管理.</p>
+<p>git add myprogram.txt</p>
+<p>git commit -m "initial add"</p>
+<p>這時, c:\test 倉儲中已經有一個改版的記錄, 接下來再編輯 myprogram.txt 檔案. 在其中</p>
+<p>的 "my program" 字串後, 連按兩個 Enter 後, 加入:</p>
+<p>first function</p>
+<p>然後存檔, 接著再執行 git add 與 git commit:</p>
+<p>git add .</p>
+<p>git commit -m "add first function"</p>
+<p>接著重覆上述編輯動作, 新增 "second function"</p>
+<p>然後, 再執行 git add 與 git commit :</p>
+<p>git add .</p>
+<p>git commit -m "add second function"</p>
+<p>這時, 使用者已經可以利用:</p>
+<p>git log</p>
+<p>看到倉儲中已經有三個提交. 分別為:</p>
+<p>a3a2eb3 add second function 9295dfd add first function 3019d3f initial add</p>
+<p>這時若希望在加入 first function 版本狀態時, 新增一個測試功能, 若通過測試符合需求,</p>
+<p>則併入已經納入 second function 的版本中, 若不符合需求, 則可將該測試分支刪除.</p>
+<p>先準備將工作目錄, 導回 "add first function" 的提交版本.</p>
+<p>git checkout 9295dfd</p>
+<p>然後以此提交版本內容, 新增一個 dev 分支:</p>
+<p>git branch dev</p>
+<p>然後利用 git checkout 在工作目錄中導出 dev 的版本 (其實, 修改前的 dev 狀態與 "add</p>
+<p>first function" 提交時相同</p>
+<p>git checkout dev</p>
+<p>接下來, 對 myprogram.txt 改版, 在 first function 字串後, 連按兩個 Enter 後, 輸入:</p>
+<p>add test function</p>
+<p>myprogram.txt 存檔後, 接著, 進行另一次的新增與提交.</p>
+<p>git add .</p>
+<p>git commit -m "add test function"</p>
+<p>這時若希望看到各提交點間的關係, 可以利用:</p>
+<p>git log --graph --oneline --all</p>
+<p>然後, 假設該測試功能已經通過, 準備與 add second function 後的版本進行合併, 這時</p>
+<p>git 出現 myprogram.txt 合併衝突, 因為 first function 後, 已經加入 seconf function, 但</p>
+<p>是 dev 分支是在 first function 加入後所導出的版本, 因此使用者在合併當下, 必須決定</p>
+<p>add second function 與 add test function, 是只保留其中一項功能, 或者同時保留.</p>
+<p>git checkout master</p>
+<p>將工作目錄轉為 master 的版本, 然後將 dev 分支的內容合併進來:</p>
+<p>git merge dev</p>
+<p>這時的 myprogram.txt 內容為:</p>
+<p>必須要刪除衝突標註符號, 同時保留 add second function 與 add test function, 存檔後</p>
+<p>成為:</p>
+<p>最後對此一合併後的版本, 進行新增與提交:</p>
+<p>git add .</p>
+<p>git commit -m "complete first, second and test functions adding"</p>
+<p>再以 git log --oneline --graph --all 檢查各提交間的關聯, 畫面如下圖所示:</p>
+<p>利用以上方式管理檔案版次的好處是, 使用者可以透過高效能的 Git 工具, 導出各提交點</p>
+<p>的版本, 或者從任一版本建立分支進行各種測試, 不會影響到其他提交版本資料的發布,</p>
+<p>等到近端的 git 倉儲進一步推送到遠端的伺服器時, 遠端倉儲不僅可以提供協同, 也可提</p>
+<p>升資料保全效益, 無論是近端或遠端電腦硬碟發生問題, 都可以從任一參與協同的倉儲</p>
+<p>中回復所有已經提交的各版本內容.</p>
+<p>最後要將工作目錄導向最初 initial add 提交時的版本:</p>
+<p>git checkout 9439e67</p>
+<p>導回 add first function 時的版本:</p>
+<p>git checkout 5fcdac9</p>
+<p>導回 add second function 時的版本:</p>
+<p>git checkout fb092cc</p>
+<p>導回 dev 時的狀態:</p>
+<p>git checkout 1c3d5ff</p>
+<p>將工作目錄導回最後 master 合併 dev 分支的版本:</p>
+<p>git checkout ace97d7</p>
+<p>將上述 test (畫面中為 test1) 目錄壓縮後: cp_w3_test_repo.7z</p>
+<p>經過上述的 Git 近端指令操作, 可以了解在程式開發過程, 可以透過 Git 分散式版本管理</p>
+<p>系統的功能, 以非常具有彈性的流程進行程式碼的編寫, 尤其當協同開發人員眾多時, Git</p>
+<p>與 Github 將更能發揮其條理開發的特定, 並且安全地保存各版次資料內容.</p>
+<p>除了 Git 與 Github, 在計算機程式課程中還推薦另一項使用者較容易全盤主導的分散式</p>
+<p>版次管理工具: Fossil SCM.</p>
+<p>Fossil SCM 的功能類似 Git, 而且近端工具與遠端工具都只需要一個檔案: fossil.exe (目</p>
+<p>前的最新版本為 2.7 版, 可以從 https://fossil-scm.org/index.html/uv/download.html 下</p>
+<p>載)</p>
+<p>等大家都熟悉如何使用 Git 與 Github 來管理所開發的 Python 程式碼之後, 我們將在分</p>
+<p>組協同專案執行過程, 介紹如何在自建的 Ubuntu 伺服器上安裝 Fossil SCM.</p><br />Git << <a href='Git.html'>Previous</a> </section></div></body></html>
