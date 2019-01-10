@@ -25,17 +25,38 @@
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190110204701.1" a="E"><vh>期中考後</vh>
-<v t="leo.20190110204701.2" a="E"><vh>Week 1-3</vh>
+<v t="leo.20190110204701.2"><vh>Week 1-3</vh>
 <v t="leo.20190110204701.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20190110204701.4" a="E"><vh>Week 4-9</vh>
+<v t="leo.20190110204701.4"><vh>Week 4-9</vh>
 <v t="leo.20190110204701.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20190110204701.8" a="E"><vh>期末</vh>
+<v t="leo.20190110204701.8"><vh>期末</vh>
 <v t="leo.20190110204701.9"><vh>內容</vh></v>
 </v>
+<v t="leo.20190110224308.1"><vh>1</vh>
+<v t="leo.20190110224308.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181005000253.1" a="E"><vh>課程</vh>
+<v t="leo.20190110224600.1"><vh>2</vh>
+<v t="leo.20190110224600.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190110224603.1"><vh>3</vh>
+<v t="leo.20190110224603.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190110224606.1"><vh>4</vh>
+<v t="leo.20190110224606.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190110224607.1"><vh>5</vh>
+<v t="leo.20190110224607.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190110224602.1"><vh>6</vh>
+<v t="leo.20190110224602.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190110230234.1" a="E"><vh>心得</vh>
+<v t="leo.20190110230234.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20181005000253.1"><vh>課程</vh>
 <v t="leo.20181026103720.1"><vh>Week 1</vh>
 <v t="leo.20181026103720.2"><vh>內容</vh></v>
 </v>
@@ -580,5 +601,90 @@ make.start()
 * 要有解決問題的能力
 
 </t>
+<t tx="leo.20190110224308.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110224308.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-1%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224600.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110224600.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-2%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224602.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110224602.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/camshaft%20change%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224603.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110224603.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-3%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224606.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110224606.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/stair2%20change%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224607.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110224607.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/stair3%20change%20by18.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110230234.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110230234.2"># 心得
+經過這次的小組分工，我學習到團隊合作的重要性，很多事情真的不能靠一個人獨力完成，是需要大家一起思考與討論的，不管是繪圖、模擬還是團隊溝通，我會把這次所學的經驗銘記在心。</t>
 </tnodes>
 </leo_file>
