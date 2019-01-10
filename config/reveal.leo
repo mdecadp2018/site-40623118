@@ -24,29 +24,40 @@
 <v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20190110204701.1" a="E"><vh>期中考後</vh>
+<v t="leo.20190110204701.2" a="E"><vh>Week 1-3</vh>
+<v t="leo.20190110204701.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20190110204701.4" a="E"><vh>Week 4-9</vh>
+<v t="leo.20190110204701.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20190110204701.8" a="E"><vh>期末</vh>
+<v t="leo.20190110204701.9"><vh>內容</vh></v>
+</v>
+</v>
 <v t="leo.20181005000253.1" a="E"><vh>課程</vh>
-<v t="leo.20181026103720.1" a="E"><vh>Week 1</vh>
+<v t="leo.20181026103720.1"><vh>Week 1</vh>
 <v t="leo.20181026103720.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181026103724.1" a="E"><vh>Week 2</vh>
+<v t="leo.20181026103724.1"><vh>Week 2</vh>
 <v t="leo.20181026103724.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181026103722.1" a="E"><vh>Week 3</vh>
+<v t="leo.20181026103722.1"><vh>Week 3</vh>
 <v t="leo.20181026103722.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181005000253.2" a="E"><vh>Week 4</vh>
+<v t="leo.20181005000253.2"><vh>Week 4</vh>
 <v t="leo.20181005000253.3"><vh>內容</vh></v>
 </v>
-<v t="leo.20181019091644.1" a="E"><vh>Week 5</vh>
+<v t="leo.20181019091644.1"><vh>Week 5</vh>
 <v t="leo.20181019091656.1"><vh>內容</vh></v>
 </v>
 <v t="leo.20181022183226.1" a="E"><vh>Week 6</vh>
 <v t="leo.20181022183226.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181026103604.1" a="E"><vh>Week 7</vh>
+<v t="leo.20181026103604.1"><vh>Week 7</vh>
 <v t="leo.20181026103604.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20181101233352.1" a="E"><vh>Week 8</vh>
+<v t="leo.20181101233352.1"><vh>Week 8</vh>
 <v t="leo.20181101233352.2"><vh>內容</vh></v>
 </v>
 </v>
@@ -414,7 +425,7 @@ make.start()
 
 * 如何在Github的Issue來做YouTube的[連結](https://github.com/mdecourse/cadp2018/issues/10)
 
-[發現問題](https://mdecadp2018.github.io/site-40623118/blog/40623118-Blog.html)
+[發現問題](https://mdecadp2018.github.io/site-40623118/blog/40623118-Blog-6.html)
 
 </t>
 <t tx="leo.20181026103604.1">&lt;section data-markdown&gt;
@@ -506,6 +517,67 @@ make.start()
 * 弄好投影片、部落格、CMSimfly與Github
 * 準備期中考
 [Week 4 Homework](https://youtu.be/KNBBMhe_jEQ)
+
+</t>
+<t tx="leo.20190110204701.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190110204701.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110204701.3"># Week1-3
+
+* 筆記、隨身碟、耳機
+* 利用倉儲維護網站，並管理CMSimfly、Reaveal與Pelian Blog
+* 利用Onshape來繪圖與練習
+
+</t>
+<t tx="leo.20190110204701.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110204701.5"># Week4-9
+
+* 更新cmd版本至最新[2.19.1](https://gitforwindows.org/)
+
+* [發現問題](https://mdecadp2018.github.io/site-40623118/blog/40623118-Blog-6.html)
+
+* 自行安排時間完成OnshapeW1-W12</t>
+<t tx="leo.20190110204701.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190110204701.9"># Week10-18
+
+* 進行期末小組的分工
+
+* 要懂得團隊合作與溝通
+
+* 要有解決問題的能力
 
 </t>
 </tnodes>
