@@ -25,13 +25,13 @@
 <v t="leo.20190414202406.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190414202409.1" a="E"><vh>其中二下</vh>
-<v t="leo.20190414203526.1" a="E"><vh>Github</vh>
+<v t="leo.20190414203526.1"><vh>Github</vh>
 <v t="leo.20190414203526.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20190414203445.1"><vh>Onshape</vh>
 <v t="leo.20190414203445.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190414202409.2"><vh>ShareX</vh>
+<v t="leo.20190414202409.2" a="E"><vh>ShareX</vh>
 <v t="leo.20190414203357.1"><vh>內容</vh></v>
 </v>
 <v t="leo.20190414203448.1"><vh>影片</vh>
@@ -51,7 +51,7 @@
 <v t="leo.20190110204701.8"><vh>期末</vh>
 <v t="leo.20190110204701.9"><vh>內容</vh></v>
 </v>
-<v t="leo.20190110224308.1"><vh>1</vh>
+<v t="leo.20190110224308.1" a="E"><vh>1</vh>
 <v t="leo.20190110224308.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20190110224600.1"><vh>2</vh>
@@ -759,7 +759,12 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 						
 </t>
 <t tx="leo.20190414203357.1">## ShareX
-[解決辦法](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95.html)</t>
+
+&lt;img src="https://cpa.kmol.info/2017fall/40623118/raw/574e65c8fd8e1f4da9afeb9b8c421de7832235d7739660c96f923ad3d2a0f62a?m=image/png" height="450" width="750"&gt;
+
+[解決辦法](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95.html)
+
+</t>
 <t tx="leo.20190414203445.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -771,7 +776,9 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 
 						
 </t>
-<t tx="leo.20190414203445.2">[Onshape](https://cad.onshape.com/documents/2899f2d3c4bc487f26c20116/w/d033a8f68da9655d35a0447e/e/5a79d0e99bf372851e03c03a)</t>
+<t tx="leo.20190414203445.2">[Onshape](https://cad.onshape.com/documents/2899f2d3c4bc487f26c20116/w/d033a8f68da9655d35a0447e/e/5a79d0e99bf372851e03c03a)
+
+</t>
 <t tx="leo.20190414203448.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -789,7 +796,9 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 
 [BubbleRob error](https://www.youtube.com/watch?v=kBzaR1sBuD8)
 
-[BubbleRob](https://www.youtube.com/watch?v=asLy_QOghgg)</t>
+[BubbleRob](https://www.youtube.com/watch?v=asLy_QOghgg)
+
+</t>
 <t tx="leo.20190414203526.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -807,6 +816,8 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 
 [分散式的Git](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E5%88%86%E6%95%A3%E5%BC%8F%E7%9A%84Git.html)
 
-[Fork](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/Fork.html)</t>
+[Fork](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/Fork.html)
+
+</t>
 </tnodes>
 </leo_file>
