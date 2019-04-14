@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20180827201556.1"><vh>@settings</vh>
+<v t="leo.20180827201556.1" a="E"><vh>@settings</vh>
 <v t="leo.20180827201556.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180827201556.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -21,7 +21,24 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20190414202406.1" a="E"><vh>封面投影片二下</vh>
+<v t="leo.20190414202406.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190414202409.1" a="E"><vh>其中二下</vh>
+<v t="leo.20190414203526.1" a="E"><vh>Github</vh>
+<v t="leo.20190414203526.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190414203445.1"><vh>Onshape</vh>
+<v t="leo.20190414203445.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190414202409.2"><vh>ShareX</vh>
+<v t="leo.20190414203357.1"><vh>內容</vh></v>
+</v>
+<v t="leo.20190414203448.1"><vh>影片</vh>
+<v t="leo.20190414203448.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190110204701.1" a="E"><vh>期中考後</vh>
@@ -52,7 +69,7 @@
 <v t="leo.20190110224602.1"><vh>6</vh>
 <v t="leo.20190110224602.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20190110230234.1" a="E"><vh>心得</vh>
+<v t="leo.20190110230234.1"><vh>心得</vh>
 <v t="leo.20190110230234.2"><vh>內容</vh></v>
 </v>
 </v>
@@ -72,7 +89,7 @@
 <v t="leo.20181019091644.1"><vh>Week 5</vh>
 <v t="leo.20181019091656.1"><vh>內容</vh></v>
 </v>
-<v t="leo.20181022183226.1" a="E"><vh>Week 6</vh>
+<v t="leo.20181022183226.1"><vh>Week 6</vh>
 <v t="leo.20181022183226.2"><vh>內容</vh></v>
 </v>
 <v t="leo.20181026103604.1"><vh>Week 7</vh>
@@ -82,10 +99,10 @@
 <v t="leo.20181101233352.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20180827201621.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -580,7 +597,9 @@ make.start()
 
 * [發現問題](https://mdecadp2018.github.io/site-40623118/blog/40623118-Blog-6.html)
 
-* 自行安排時間完成OnshapeW1-W12</t>
+* 自行安排時間完成OnshapeW1-W12
+
+</t>
 <t tx="leo.20190110204701.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -612,7 +631,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190110224308.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-1%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224308.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-1%20by%2018.jpg" height="500" width="1000"&gt;
+
+</t>
 <t tx="leo.20190110224600.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -624,7 +645,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190110224600.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-2%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224600.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-2%20by%2018.jpg" height="500" width="1000"&gt;
+
+</t>
 <t tx="leo.20190110224602.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -636,7 +659,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190110224602.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/camshaft%20change%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224602.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/camshaft%20change%20by%2018.jpg" height="500" width="1000"&gt;
+
+</t>
 <t tx="leo.20190110224603.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -648,7 +673,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190110224603.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-3%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224603.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/pinball-3%20by%2018.jpg" height="500" width="1000"&gt;
+
+</t>
 <t tx="leo.20190110224606.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -660,7 +687,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190110224606.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/stair2%20change%20by%2018.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224606.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/stair2%20change%20by%2018.jpg" height="500" width="1000"&gt;
+
+</t>
 <t tx="leo.20190110224607.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -672,7 +701,9 @@ make.start()
 
 						
 </t>
-<t tx="leo.20190110224607.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/stair3%20change%20by18.jpg" height="500" width="1000"&gt;</t>
+<t tx="leo.20190110224607.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/stair3%20change%20by18.jpg" height="500" width="1000"&gt;
+
+</t>
 <t tx="leo.20190110230234.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -685,6 +716,97 @@ make.start()
 						
 </t>
 <t tx="leo.20190110230234.2"># 心得
-經過這次的小組分工，我學習到團隊合作的重要性，很多事情真的不能靠一個人獨力完成，是需要大家一起思考與討論的，不管是繪圖、模擬還是團隊溝通，我會把這次所學的經驗銘記在心。</t>
+經過這次的小組分工，我學習到團隊合作的重要性，很多事情真的不能靠一個人獨力完成，是需要大家一起思考與討論的，不管是繪圖、模擬還是團隊溝通，我會把這次所學的經驗銘記在心。
+
+</t>
+<t tx="leo.20190414202406.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20190414202406.2">## 2019 Spring 協同產品設計實習
+
+### 虎科大機械設計工程系
+
+&lt;small&gt;
+
+Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
+
+&lt;/small&gt;
+
+[2019 產品協同設計第三組](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/index.html)
+
+
+</t>
+<t tx="leo.20190414202409.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190414202409.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190414203357.1">## ShareX
+[解決辦法](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95.html)</t>
+<t tx="leo.20190414203445.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190414203445.2">[Onshape](https://cad.onshape.com/documents/2899f2d3c4bc487f26c20116/w/d033a8f68da9655d35a0447e/e/5a79d0e99bf372851e03c03a)</t>
+<t tx="leo.20190414203448.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190414203448.2">## Youtube
+
+[製作可攜系統](https://www.youtube.com/watch?v=2wGKOPM9jUA&amp;t=368s)
+
+[BubbleRob error](https://www.youtube.com/watch?v=kBzaR1sBuD8)
+
+[BubbleRob](https://www.youtube.com/watch?v=asLy_QOghgg)</t>
+<t tx="leo.20190414203526.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190414203526.2">## Git Book
+
+[伺服器上的Git](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E4%BC%BA%E6%9C%8D%E5%99%A8%E4%B8%8A%E7%9A%84Git.html)
+
+[分散式的Git](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E5%88%86%E6%95%A3%E5%BC%8F%E7%9A%84Git.html)
+
+[Fork](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/Fork.html)</t>
 </tnodes>
 </leo_file>
