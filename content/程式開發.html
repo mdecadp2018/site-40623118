@@ -62,6 +62,162 @@ $(function(){
 </ul>
 </confmenu></header>
 <div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='課堂內容.html'>課堂內容</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='Week4.html'>Week4</a><li><a href='Week5.html'>Week5</a><li><a href='Week6.html'>Week6</a><li><a href='Week7.html'>Week7</a><li><a href='Week8.html'>Week8</a></li></ul><li><a href='Git.html'>Git</a><li><a href='啟動 p37 可攜系統.html'>啟動 p37 可攜系統</a><li><a href='筆記.html'>筆記</a><li><a href='Git 教材(暫).html'>Git 教材(暫)</a><ul><li><a href='1.1 關於版本的控制.html'>1.1 關於版本的控制</a><li><a href='3.1使用 Git 分支 - 簡述分支.html'>3.1使用 Git 分支 - 簡述分支</a><li><a href='4.1 伺服器上的 Git.html'>4.1 伺服器上的 Git</a><li><a href='5.1 分散式的 Git - 分散式工作流程.html'>5.1 分散式的 Git - 分散式工作流程</a></li></ul><li><a href='手足球.html'>手足球</a><ul><li><a href='學員出席.html'>學員出席</a><li><a href='Github 倉儲管理.html'>Github 倉儲管理</a><li><a href='Onshape 協同操作.html'>Onshape 協同操作</a><li><a href='V-rep 模擬.html'>V-rep 模擬</a><ul><li><a href='簡化方法.html'>簡化方法</a></li></ul><li><a href='程式開發.html'>程式開發</a><li><a href='簡化與模擬測試問題與討論.html'>簡化與模擬測試問題與討論</a></li></ul></nav><section>簡化方法 << <a href='簡化方法.html'>Previous</a> <a href='簡化與模擬測試問題與討論.html'>Next</a> >> 簡化與模擬測試問題與討論<br /><h1>程式開發</h1>
-<div></div>
+<div>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import vrep
+import keyboard
+from time import sleep
+import sys, math
+# child threaded script: 
+# 內建使用 port 19997 若要加入其他 port, 在  serve 端程式納入
+#simExtRemoteApiStart(19999)
+ 
+vrep.simxFinish(-1)
+ 
+clientID = vrep.simxStart('127.0.0.1', 19997, True, True, 5000, 5)                                                                  #clientID解釋: client客戶 ID為辨別身分的證明
+KickBallV =360                                                                                                                                              #故定義踢球速度、移動速度與轉動角度
+Move_Minus =-0.1                        
+Move_Plus =0.1
+R_KickBallVel = (math.pi/180)*KickBallV
+B_KickBallVel = -(math.pi/180)*KickBallV
+if clientID!= -1:                                                                                                                                            #當clientID= -１
+    print("Connected to remote server")
+else:
+    print('Connection not successful')
+    sys.exit('Could not connect')
+ 
+errorCode,Sphere_handle=vrep.simxGetObjectHandle(clientID,'Sphere',vrep.simx_opmode_oneshot_wait)          #指定各物件對應到在V-rep的參數
+errorCode,BRod_handle=vrep.simxGetObjectHandle(clientID,'BRod',vrep.simx_opmode_oneshot_wait)                #定義errorCode
+errorCode,BRev_handle=vrep.simxGetObjectHandle(clientID,'BRev',vrep.simx_opmode_oneshot_wait)
+errorCode,BMo_handle=vrep.simxGetObjectHandle(clientID,'BMo',vrep.simx_opmode_oneshot_wait)
+
+errorCode,BRev0_1_handle=vrep.simxGetObjectHandle(clientID,'BRev0_1',vrep.simx_opmode_oneshot_wait)
+errorCode,BRev0_2_handle=vrep.simxGetObjectHandle(clientID,'BRev0_2',vrep.simx_opmode_oneshot_wait)
+errorCode,BMo0_handle=vrep.simxGetObjectHandle(clientID,'BMo0',vrep.simx_opmode_oneshot_wait)
+
+errorCode,BRev1_1_handle=vrep.simxGetObjectHandle(clientID,'BRev1_1',vrep.simx_opmode_oneshot_wait)
+errorCode,BRev1_2_handle=vrep.simxGetObjectHandle(clientID,'BRev1_2',vrep.simx_opmode_oneshot_wait)
+errorCode,BMo1_handle=vrep.simxGetObjectHandle(clientID,'BMo1',vrep.simx_opmode_oneshot_wait)
+
+errorCode,BRev2_1_handle=vrep.simxGetObjectHandle(clientID,'BRev2_1',vrep.simx_opmode_oneshot_wait)
+errorCode,BRev2_2_handle=vrep.simxGetObjectHandle(clientID,'BRev2_2',vrep.simx_opmode_oneshot_wait)
+errorCode,BMo2_handle=vrep.simxGetObjectHandle(clientID,'BMo2',vrep.simx_opmode_oneshot_wait)
+
+errorCode,RRev_handle=vrep.simxGetObjectHandle(clientID,'RRev',vrep.simx_opmode_oneshot_wait)
+errorCode,RMo_handle=vrep.simxGetObjectHandle(clientID,'RMo',vrep.simx_opmode_oneshot_wait)
+errorCode,RRod_handle=vrep.simxGetObjectHandle(clientID,'RRod',vrep.simx_opmode_oneshot_wait)                   #
+
+if errorCode == -1:                                                                                                                                           #當clientID= -１，errorCode 也= -１
+    print('Can not find left or right motor')
+    sys.exit()
+    
+def stop():
+    errorCode = vrep.simxStopSimulation(clientID,vrep.simx_opmode_oneshot_wait)                                             #定義停止、開始與暫停
+    
+def start():
+    errorCode = vrep.simxStartSimulation(clientID,vrep.simx_opmode_oneshot_wait)
+    
+def pause():
+    errorCode = vrep.simxPauseSimulation(clientID,vrep.simx_opmode_oneshot_wait)
+
+
+def getballposition():                                                                                                                                     #定義得到球體位置後自行手動切換球桿作動
+    while True:
+        try:
+            if keyboard.is_pressed('1'):                                                                                                                                     #定義按１時，會切換到B１桿移動、轉動
+                try:
+                    if keyboard.is_pressed('x'):
+                        vrep.simxSetJointTargetVelocity(clientID,BRev_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                    else:
+                        vrep.simxSetJointTargetVelocity(clientID,BRev_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                    if keyboard.is_pressed('z'):
+                        vrep.simxSetJointTargetVelocity(clientID,BMo_handle,0.2,vrep.simx_opmode_oneshot_wait)
+                    elif keyboard.is_pressed('c'):
+                        vrep.simxSetJointTargetVelocity(clientID,BMo_handle,-0.2,vrep.simx_opmode_oneshot_wait)
+                    else:
+                        vrep.simxSetJointTargetVelocity(clientID,BMo_handle,0,vrep.simx_opmode_oneshot_wait)
+                except:
+                    break
+            if keyboard.is_pressed('2'):                                                                                                                                      #定義按２時，會切換到B２桿移動
+                try:                                                                                                                                                                      #並且B２桿的兩個球員轉動
+                    if keyboard.is_pressed('x'):
+                        vrep.simxSetJointTargetVelocity(clientID,BRev0_1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                        vrep.simxSetJointTargetVelocity(clientID,BRev0_2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                    else:
+                        vrep.simxSetJointTargetVelocity(clientID,BRev0_1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                        vrep.simxSetJointTargetVelocity(clientID,BRev0_2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                    if keyboard.is_pressed('z'):
+                        vrep.simxSetJointTargetVelocity(clientID,BMo0_handle,0.2,vrep.simx_opmode_oneshot_wait)
+                    elif keyboard.is_pressed('c'):
+                        vrep.simxSetJointTargetVelocity(clientID,BMo0_handle,-0.2,vrep.simx_opmode_oneshot_wait)
+                    else:
+                        vrep.simxSetJointTargetVelocity(clientID,BMo0_handle,0,vrep.simx_opmode_oneshot_wait)
+                except:
+                    break
+                    
+            if keyboard.is_pressed('3'):                                                                                                                                       #定義按３時，會切換到Ｂ１桿移動
+                try:                                                                                                                                                                       #並且Ｂ１桿的兩個球員轉動
+                    if keyboard.is_pressed('x'):
+                        vrep.simxSetJointTargetVelocity(clientID,BRev1_1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                        vrep.simxSetJointTargetVelocity(clientID,BRev1_2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                    else:
+                        vrep.simxSetJointTargetVelocity(clientID,BRev1_1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                        vrep.simxSetJointTargetVelocity(clientID,BRev1_2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                    if keyboard.is_pressed('z'):
+                        vrep.simxSetJointTargetVelocity(clientID,BMo1_handle,0.2,vrep.simx_opmode_oneshot_wait)
+                    elif keyboard.is_pressed('c'):
+                        vrep.simxSetJointTargetVelocity(clientID,BMo1_handle,-0.2,vrep.simx_opmode_oneshot_wait)
+                    else:
+                        vrep.simxSetJointTargetVelocity(clientID,BMo1_handle,0,vrep.simx_opmode_oneshot_wait)
+                except:
+                    break
+                    
+            if keyboard.is_pressed('4'):                                                                                                                                        #定義按４時，會切換到Ｂ２桿移動、轉動
+                try:                                                                                                                                                                        #並且Ｂ２桿的兩個球員轉動
+                    if keyboard.is_pressed('x'):
+                        vrep.simxSetJointTargetVelocity(clientID,BRev2_1_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                        vrep.simxSetJointTargetVelocity(clientID,BRev2_2_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                    else:
+                        vrep.simxSetJointTargetVelocity(clientID,BRev2_1_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                        vrep.simxSetJointTargetVelocity(clientID,BRev2_2_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+                    if keyboard.is_pressed('z'):
+                        vrep.simxSetJointTargetVelocity(clientID,BMo2_handle,0.2,vrep.simx_opmode_oneshot_wait)
+                    elif keyboard.is_pressed('c'):
+                        vrep.simxSetJointTargetVelocity(clientID,BMo2_handle,-0.2,vrep.simx_opmode_oneshot_wait)
+                    else:
+                        vrep.simxSetJointTargetVelocity(clientID,BMo2_handle,0,vrep.simx_opmode_oneshot_wait)
+                except:
+                    break
+        except:
+            break
+        try:                                                                                                                                                                                #定義按ｕｉｏｐ時，Ｒ桿移動、轉動
+            if keyboard.is_pressed('u'): 
+                vrep.simxSetJointTargetVelocity(clientID,RRev_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+            elif keyboard.is_pressed('i'):  
+                vrep.simxSetJointTargetVelocity(clientID,RRev_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+            if keyboard.is_pressed('o'):  
+                vrep.simxSetJointTargetVelocity(clientID,RMo_handle,0.2,vrep.simx_opmode_oneshot_wait)
+            elif keyboard.is_pressed('p'):  
+                vrep.simxSetJointTargetVelocity(clientID,RMo_handle,-0.2,vrep.simx_opmode_oneshot_wait)
+            else:
+                vrep.simxSetJointTargetVelocity(clientID,RMo_handle,0,vrep.simx_opmode_oneshot_wait)
+        except:
+            break
+    
+vrep.simxSetJointTargetVelocity(clientID,BRev_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,RRev_handle,0,vrep.simx_opmode_oneshot_wait)
+vrep.simxSetJointTargetVelocity(clientID,RMo_handle,0,vrep.simx_opmode_oneshot_wait)
+
+start()
+getballposition()
+stop()
+
+
+#vrep.simxSetJointTargetVelocity(clientID,BRev_handle,B_KickBallVel,vrep.simx_opmode_oneshot_wait)
+#vrep.simxSetJointTargetVelocity(clientID,BMo_handle,Move,vrep.simx_opmode_oneshot_wait)
+
+#vrep.simxSetJointTargetVelocity(clientID,RRev_handle,R_KickBallVel,vrep.simx_opmode_oneshot_wait)
+#vrep.simxSetJointTargetVelocity(clientID,RMo_handle,Move,vrep.simx_opmode_oneshot_wait)
+</pre>
+</div>
 <div></div>
 <br />簡化方法 << <a href='簡化方法.html'>Previous</a> <a href='簡化與模擬測試問題與討論.html'>Next</a> >> 簡化與模擬測試問題與討論</section></div></body></html>
