@@ -21,10 +21,30 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20190414202406.1" a="E"><vh>封面投影片二下</vh>
+<v t="leo.20190414202406.1"><vh>封面投影片二下</vh>
 <v t="leo.20190414202406.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190414202409.1" a="E"><vh>其中二下</vh>
+<v t="leo.20190608112037.1" a="E"><vh>其莫二下</vh>
+<v t="leo.20190608112037.2" a="E"><vh>Github</vh>
+<v t="leo.20190608112037.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20190608112037.4" a="E"><vh>Onshape</vh>
+<v t="leo.20190608112037.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20190608114306.1" a="E"><vh>城市</vh>
+<v t="leo.20190608114306.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190608113615.1" a="E"><vh>V-rep</vh>
+<v t="leo.20190608113615.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20190608112037.6"><vh>ShareX</vh>
+<v t="leo.20190608112037.7"><vh>內容</vh></v>
+</v>
+<v t="leo.20190608112037.8"><vh>影片</vh>
+<v t="leo.20190608112037.9"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20190414202409.1"><vh>其中二下</vh>
 <v t="leo.20190414203526.1"><vh>Github</vh>
 <v t="leo.20190414203526.2"><vh>內容</vh></v>
 </v>
@@ -41,7 +61,7 @@
 <v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190110204701.1" a="E"><vh>期中考後</vh>
+<v t="leo.20190110204701.1"><vh>期中考後</vh>
 <v t="leo.20190110204701.2"><vh>Week 1-3</vh>
 <v t="leo.20190110204701.3"><vh>內容</vh></v>
 </v>
@@ -102,7 +122,7 @@
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -817,6 +837,122 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 [分散式的Git](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E5%88%86%E6%95%A3%E5%BC%8F%E7%9A%84Git.html)
 
 [Fork](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/Fork.html)
+
+</t>
+<t tx="leo.20190608112037.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190608112037.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190608112037.3">## Git Book
+
+[伺服器上的Git](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E4%BC%BA%E6%9C%8D%E5%99%A8%E4%B8%8A%E7%9A%84Git.html)
+
+[分散式的Git](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E5%88%86%E6%95%A3%E5%BC%8F%E7%9A%84Git.html)
+
+[Fork](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/Fork.html)
+
+</t>
+<t tx="leo.20190608112037.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190608112037.5">## Onshape協同操作
+
+
+[組合圖限制](https://youtu.be/8K-59ISQux0)
+[發現問題](https://mdecadp2018.github.io/site-40623118/content/%E7%B0%A1%E5%8C%96%E8%88%87%E6%A8%A1%E6%93%AC%E6%B8%AC%E8%A9%A6%E5%95%8F%E9%A1%8C%E8%88%87%E8%A8%8E%E8%AB%96.html)
+[解決方法](https://youtu.be/1jI4ycqSsnk)
+</t>
+<t tx="leo.20190608112037.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190608112037.7">## ShareX
+
+&lt;img src="https://cpa.kmol.info/2017fall/40623118/raw/574e65c8fd8e1f4da9afeb9b8c421de7832235d7739660c96f923ad3d2a0f62a?m=image/png" height="450" width="750"&gt;
+
+[解決辦法](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/%E8%A7%A3%E6%B1%BA%E8%BE%A6%E6%B3%95.html)
+
+</t>
+<t tx="leo.20190608112037.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190608112037.9">## Youtube
+
+[製作可攜系統](https://www.youtube.com/watch?v=2wGKOPM9jUA&amp;t=368s)
+
+[BubbleRob error](https://www.youtube.com/watch?v=kBzaR1sBuD8)
+
+[BubbleRob](https://www.youtube.com/watch?v=asLy_QOghgg)
+
+</t>
+<t tx="leo.20190608113615.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190608113615.2">## V-rep
+
+[簡化過程](https://mdecadp2018.github.io/site-40623118/content/V-rep%20%E6%A8%A1%E6%93%AC.html)
+[簡易版步驟](https://mdecadp2018.github.io/site-40623118/content/%E7%B0%A1%E5%8C%96%E6%96%B9%E6%B3%95.html)
+
+[簡易版影片](https://youtu.be/YmQlG03cHHk)
+[樹狀圖過程1](https://youtu.be/9RefYdyNEyE)
+[樹狀圖過程2](https://youtu.be/5cvDG4Fi6Cw)
+</t>
+<t tx="leo.20190608114306.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190608114306.2">## 程式開發
+
 
 </t>
 </tnodes>
