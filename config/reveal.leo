@@ -1218,6 +1218,6 @@ stop()
 
 						
 </t>
-<t tx="leo.20190609141916.2">&lt;img src="" height="500" width="1000"&gt;</t>
+<t tx="leo.20190609141916.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/vrep_SRroKyMYj5.png" height="500" width="1000"&gt;</t>
 </tnodes>
 </leo_file>
