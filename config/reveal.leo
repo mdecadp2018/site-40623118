@@ -21,7 +21,7 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20190414202406.1"><vh>封面投影片二下</vh>
+<v t="leo.20190414202406.1" a="E"><vh>封面投影片二下</vh>
 <v t="leo.20190414202406.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190608112037.1"><vh>其莫二下github</vh>
@@ -47,16 +47,24 @@
 <v t="leo.20190609024051.4" a="E"><vh>Onshape</vh>
 <v t="leo.20190609024051.5"><vh>內容</vh></v>
 </v>
-<v t="leo.20190609024051.6" a="E"><vh>解決</vh>
+<v t="leo.20190609024051.6"><vh>解決</vh>
 <v t="leo.20190609024051.7"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20190609024417.1" a="E"><vh>其莫二下城市</vh>
-<v t="leo.20190609024417.6"><vh>城市</vh>
+<v t="leo.20190609024417.6" a="E"><vh>城市</vh>
 <v t="leo.20190609024417.7"><vh>內容</vh></v>
 </v>
 <v t="leo.20190609141916.1" a="E"><vh>錯誤</vh>
 <v t="leo.20190609141916.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20190609143555.1" a="E"><vh>其莫二下問題</vh>
+<v t="leo.20190609143555.2"><vh>問題</vh>
+<v t="leo.20190609143555.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20190609145025.1" a="E"><vh>解決</vh>
+<v t="leo.20190609145025.2"><vh>內容</vh></v>
 </v>
 </v>
 <v t="leo.20190609024513.1"><vh>自評</vh>
@@ -78,7 +86,7 @@
 <v t="leo.20190414203448.2"><vh>內容</vh></v>
 </v>
 </v>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20190110204701.1"><vh>期中考後</vh>
@@ -770,15 +778,17 @@ make.start()
 </t>
 <t tx="leo.20190414202406.2">## 2019 Spring 協同產品設計實習
 
-### 虎科大機械設計工程系
+### 國立虎尾科技大學  機械設計工程系 
+### 協同產品設計實習期末報告
 
+[2019 產品協同設計第三組](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/index.html)
 &lt;small&gt;
 
 Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 
 &lt;/small&gt;
 
-[2019 產品協同設計第三組](https://mdekmol.github.io/cd2019a-task1-2019cda_t1_g3_1/content/index.html)
+
 
 
 </t>
@@ -875,7 +885,7 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 
 						
 </t>
-<t tx="leo.20190608112037.3">## Git Book
+<t tx="leo.20190608112037.3">## Github 倉儲管理 
 
 [AG3](https://github.com/mdekmol/cd2019a-task1-2019cda_t1_g3_1/graphs/contributors)
 
@@ -921,7 +931,7 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 <t tx="leo.20190609023550.2">## Onshape轉V-rep
 
 
-[132](https://mdecadp2018.github.io/site-40623118/content/%E7%B0%A1%E5%8C%96%E8%88%87%E6%A8%A1%E6%93%AC%E6%B8%AC%E8%A9%A6%E5%95%8F%E9%A1%8C%E8%88%87%E8%A8%8E%E8%AB%96.html)
+[V-rep轉換](https://mdecadp2018.github.io/site-40623118/content/%E7%B0%A1%E5%8C%96%E8%88%87%E6%A8%A1%E6%93%AC%E6%B8%AC%E8%A9%A6%E5%95%8F%E9%A1%8C%E8%88%87%E8%A8%8E%E8%AB%96.html)
 </t>
 <t tx="leo.20190609023552.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -956,10 +966,9 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 </t>
 <t tx="leo.20190609024051.3">## V-rep
 
-[簡化過程](https://mdecadp2018.github.io/site-40623118/content/V-rep%20%E6%A8%A1%E6%93%AC.html)
-[簡易版步驟](https://mdecadp2018.github.io/site-40623118/content/%E7%B0%A1%E5%8C%96%E6%96%B9%E6%B3%95.html)
+[簡化過程](https://mdecadp2018.github.io/site-40623118/content/V-rep%20%E6%A8%A1%E6%93%AC.html)             - [簡易版步驟](https://mdecadp2018.github.io/site-40623118/content/%E7%B0%A1%E5%8C%96%E6%96%B9%E6%B3%95.html)
 
-&lt;iframe width="1000" height="550" src="https://www.youtube.com/embed/YmQlG03cHHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="850" height="450" src="https://www.youtube.com/embed/YmQlG03cHHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20190609024051.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -1011,6 +1020,7 @@ Created by [40623118 楊秉澤](https://github.com/mdecadp2018/site-40623118)
 						
 </t>
 <t tx="leo.20190609024417.7">## 程式開發 (修改)
+[原組員程式碼](https://drive.google.com/file/d/1GCDo04ei3lFMPxXtaAo_cm0WZjwf65Wo/view)
 
 ```
 @language python
@@ -1218,6 +1228,41 @@ stop()
 
 						
 </t>
-<t tx="leo.20190609141916.2">&lt;img src="https://mdecadp2018.github.io/site-40623118/images/vrep_SRroKyMYj5.png" height="500" width="1000"&gt;</t>
+<t tx="leo.20190609141916.2">### 球桿可左右移動，不能踢球轉動
+
+&lt;img src="https://mdecadp2018.github.io/site-40623118/images/vrep_SRroKyMYj5.png" height="500" width="1000"&gt;</t>
+<t tx="leo.20190609143555.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20190609143555.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190609143555.3"># 編輯 cd2019a
+&lt;img src="https://mdecadp2018.github.io/site-40623118/images/chrome_h3yEGbyJHl.png" height="500" width="1000"&gt;</t>
+<t tx="leo.20190609145025.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+
+						
+</t>
+<t tx="leo.20190609145025.2"># 解決方法
+[自行製作可攜系統](https://youtu.be/2wGKOPM9jUA) - [Python3.7.2](https://www.python.org/downloads/)
+
+刪除之前的下載Python3.7.2後，已可以看到內文並可以編輯</t>
 </tnodes>
 </leo_file>
